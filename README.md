@@ -44,3 +44,5 @@ Also, you have to change the `@"School"` in the _SchoolsViewController.m_ file.
 
 ## Make an android-Counterpart of the School App
 You can easily make an android-Counterpart - the _data.xml_ is completely identical.
+
+![MySchoolWallpaper](https://raw.githubusercontent.com/justfaraway42/MySchoolPocket-android/master/MSP_wallpaper.png)
