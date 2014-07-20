@@ -25,7 +25,7 @@
     
     if ([defaults boolForKey:@"initSchoolViewController"]) {
         
-        entityName = @"State";
+        entityName = @"School"; // change to @"Community" or @"State" if you want to have a selection
         [defaults setBool:NO forKey:@"initSchoolViewController"];
         [defaults synchronize]; // save state
     }
