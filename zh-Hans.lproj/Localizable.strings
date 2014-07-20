@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings
+  EGW
+
+  Created by Justus Dög on 07.10.12.
+  Copyright (c) 2012 Europäisches Gymnasium Waldenburg. All rights reserved.
+*/
+
+"lproj" = "zh-Hans.lproj";
+"appVersion" = "版本";
+"appReleaseNotes" = "Programmierung und Design:\nJustus Dög\n\nÜbersetzung:\nBingqian Wu\n\nDanke für die Unterstützung:\nMike Richter,\nEberhart Calov,\nFelix Möbius,\nAndreas Krauß\n\n© <year> JustProductions\nEuropäisches Gymnasium Waldenburg\n\nTHIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.";
+
+
+"news" = "新消息";
+"timetables" = "课程表";
+"representation" = "带课表";
+"info" = "信息";
+"settings" = "设置";
+
+"buttonDone" = "完成";
+"buttonCancel" = "返回";
+
+"schoolsChooseState" = "学校"; /*= school || add right translation*/
+"schoolsChooseCommunity" = "学校"; /*= school || add right translation*/
+"schoolsChooseSchool" = "学校";
+"schoolsChooseClass" = "班级";
+
+"newsActionSheetTitle" = "标记以读信息";
+"newsActionSheetButtonAllRead" = "标记所有读过的";
+"newsActionSheetButtonAllUnread" = "标记所有未读过的";
+
+"newsDetailsActionSheetTitle" = "打开于。。。";
+
+"plansToday" = "今天";
+"plansClass" = "班级";
+"plansAllClasses" = "所有班级";
+"plansLastUpdated" = "最后更新的时间：";
+"plansRestWeek" = "剩下的日子";
+"plansWeekOverview" = "一周预览表";
+
+"plansDetailsDownload" = "下载中。。。";
+
+"infoCall" = "给学校致电";
+"infoWeb" = "访问主页";
+"infoMail" = "写邮件";
+"infoNavigation" = "定位去学校";
+
+"settingsChangeSchool" = "换学校";
+"settingsReloadOnStartup" = "打开刷新";
+"settingsShowBadge" = "应用程序图标标记";
+"settingsMaximumArticles" = "最多被保存文件数量";
+"settingsClassLevel" = "显示班级";
+"settingsLoadManually" = "手动下载";
+"settingsTodayFirst" = "首先显示本日";
+"settingsAboutApp" = "关于 App";
+
+"actionSheetButtonMobileSafari" = "手机版 Safari";
+"actionSheetButtonShare" = "分享。。。";
+"actionSheetButtonAirPrint" = "Air Print";
+"actionSheetButtonOpenIn" = "打开于。。。";
+
+"alertWarning" = "警告";
+"alertDeviceNotSupported" = "你的产品不支持此项功能.";

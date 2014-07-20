@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Article" representedClassName="Article" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="read" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Community" representedClassName="Community" syncable="YES">
+        <attribute name="name" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="communityToSchool" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="School" inverseName="schoolToCommunity" inverseEntity="School" indexed="YES" syncable="YES"/>
+        <relationship name="communityToState" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="State" inverseName="stateToCommunity" inverseEntity="State" indexed="YES" syncable="YES"/>
+        <userInfo>
+            <entry key="com.apple.syncservices.IdentityProperties" value=""/>
+        </userInfo>
+    </entity>
+    <entity name="School" representedClassName="School" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="emailAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="feed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="representationUrls" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timetablesClasses" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timetablesNames" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timetablesUrls" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="schoolToCommunity" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Community" inverseName="communityToSchool" inverseEntity="Community" indexed="YES" syncable="YES"/>
+    </entity>
+    <entity name="State" representedClassName="Country" syncable="YES">
+        <attribute name="name" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="stateToCommunity" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Community" inverseName="communityToState" inverseEntity="Community" indexed="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Article" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Community" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="State" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="School" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

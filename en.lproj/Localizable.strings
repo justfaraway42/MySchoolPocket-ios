@@ -1,0 +1,62 @@
+/* 
+  Localizable.strings
+  EGW
+
+  Created by Justus Dög on 07.10.12.
+  Copyright (c) 2012 Europäisches Gymnasium Waldenburg. All rights reserved.
+*/
+
+"lproj" = "en.lproj";
+"appVersion" = "Version";
+"appReleaseNotes" = "Programmierung und Design:\nJustus Dög\n\nDanke für die Unterstützung:\nMike Richter,\nEberhart Calov,\nFelix Möbius,\nAndreas Krauß\n\n© <year> JustProductions\nEuropäisches Gymnasium Waldenburg\n\nTHIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.";
+
+"news" = "News";
+"timetables" = "Timetables";
+"representation" = "Representation";
+"info" = "Info";
+"settings" = "Settings";
+
+"buttonDone" = "Done";
+"buttonCancel" = "Cancel";
+
+"schoolsChooseState" = "State";
+"schoolsChooseCommunity" = "Community";
+"schoolsChooseSchool" = "Schools";
+"schoolsChooseClass" = "Class";
+
+"newsActionSheetTitle" = "Set Read status";
+"newsActionSheetButtonAllRead" = "mark all as read";
+"newsActionSheetButtonAllUnread" = "mark all as unread";
+
+"newsDetailsActionSheetTitle" = "Open In…";
+
+"plansToday" = "Today";
+"plansClass" = "Class";
+"plansAllClasses" = "All Classes";
+"plansLastUpdated" = "last updated:";
+"plansRestWeek" = "Rest of the Week";
+"plansWeekOverview" = "Weekly Overview";
+
+"plansDetailsDownload" = "Downloading…";
+
+"infoCall" = "call school";
+"infoWeb" = "visit website";
+"infoMail" = "write mail";
+"infoNavigation" = "navigate to school";
+
+"settingsChangeSchool" = "Change School";
+"settingsReloadOnStartup" = "Reload on startup";
+"settingsShowBadge" = "show Badge";
+"settingsMaximumArticles" = "Maximum of stored articles";
+"settingsClassLevel" = "show Class";
+"settingsLoadManually" = "manual download";
+"settingsTodayFirst" = "show today first";
+"settingsAboutApp" = "About this App";
+
+"actionSheetButtonMobileSafari" = "Mobile Safari";
+"actionSheetButtonShare" = "share…";
+"actionSheetButtonAirPrint" = "Air Print";
+"actionSheetButtonOpenIn" = "Open in…";
+
+"alertWarning" = "Warning";
+"alertDeviceNotSupported" = "Your device doesn't support this feature.";
